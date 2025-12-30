@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Jogo-da-Velha-React/static/css/main.d735f03b.css",
+    "main.js": "/Jogo-da-Velha-React/static/js/main.03eb11f9.js",
+    "static/media/minha.jpg": "/Jogo-da-Velha-React/static/media/minha.dd7b86a4508f79c5ad6f.jpg",
+    "index.html": "/Jogo-da-Velha-React/index.html",
+    "main.d735f03b.css.map": "/Jogo-da-Velha-React/static/css/main.d735f03b.css.map",
+    "main.03eb11f9.js.map": "/Jogo-da-Velha-React/static/js/main.03eb11f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d735f03b.css",
+    "static/js/main.03eb11f9.js"
+  ]
+}
