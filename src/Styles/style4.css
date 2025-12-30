@@ -1,0 +1,106 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.25s ease-in-out;
+
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.search-container {
+    padding: 10px;
+    margin: 10px;
+
+}
+.select {
+    padding: 10px;
+    margin: 10px;
+}
+.search {
+    padding: 10px;
+    margin: 10px;
+    
+}
+.submit-button {
+    padding: 10px;
+    margin: 10px;
+}
+.submit-button:hover {
+    cursor: pointer;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 75%;
+    padding: 10px;
+    margin: 10px;
+
+    background-color: hsla(0, 4%, 95%, 0.938);
+    border: 2px solid hsla(0, 0%, 72%, 0.815);
+    box-shadow: 0 0 3px hsla(0, 0%, 82%, 0.815);
+    border-radius: 10px;
+}
+.user-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    background-color: hsla(0, 4%, 95%, 0.938);
+    border: 2px solid hsla(0, 0%, 72%, 0.815);
+    box-shadow: 0 0 3px hsla(0, 0%, 82%, 0.815);
+    border-radius: 10px;
+    
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+   
+    
+    border-radius: 10px;
+    
+}
+.add-button {
+    padding: 10px;
+    width: 100%;
+    
+    border: 2px solid hsla(0, 0%, 72%, 0.815);;
+    border-radius: 100px;
+    font-size: 50px;
+    box-shadow: 0 0 3px hsla(0, 0%, 82%, 0.815);
+}
+.add-button:hover {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 80px;
+    
+    border-radius: 1px;
+    background-color: hsla(0, 0%, 100%, 0.815);
+    box-shadow: 0 0 5px hsla(118, 92%, 25%, 0.815);
+}
+

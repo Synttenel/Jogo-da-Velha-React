@@ -1,0 +1,257 @@
+* {
+    font-family: monospace;
+    transition: 
+    background-color 0.25s ease-in-out,
+    opacity 1s ease, width 0.5s ease,
+    flex 0.5s ease-in-out;
+    
+    
+    
+}
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: hsla(0, 0%, 100%, 0.726);
+    
+}
+.teste {
+    writing-mode:sideways-lr;
+}
+.create-button-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.delete-button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid rgba(202, 202, 202, 0.521);
+    border-radius: 10px;
+    background-color: hsla(0, 100%, 50%, 0.767);
+}
+.delete-button:hover {
+    background-color: hsla(0, 100%, 40%, 0.767);
+    
+    cursor: pointer;
+}
+.create-button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid rgba(202, 202, 202, 0.521);
+    border-radius: 10px;
+    background-color: hsla(162, 100%, 50%, 0.767);
+    
+}
+.create-button:hover {
+    background-color: hsla(162, 100%, 40%, 0.767);
+   
+    cursor: pointer;
+}
+.create-container{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+.input-container {
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    
+    backdrop-filter: blur(10px);
+    background-color: hsla(0, 0%, 100%, 0.795);
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgba(202, 202, 202, 0.521);
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(202, 202, 202, 0.521);
+}
+.input-label {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    
+}
+input{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    font-family: monospace;
+    font-weight: bold;
+    border: 2px solid rgba(202, 202, 202, 0.521);
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(202, 202, 202, 0.521);
+}
+select{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    font-family: monospace;
+    font-weight: bold;
+    border: 2px solid rgba(202, 202, 202, 0.521);
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(202, 202, 202, 0.521);
+}
+.input-text {
+    text-align: justify;
+    text-indent: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-weight: bold;
+    width: 300px;
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 60px;
+    max-height: 100px;
+    transition: width none;
+    border: 2px solid rgba(202, 202, 202, 0.521);
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(202, 202, 202, 0.521);
+    
+}
+.input-submit {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    font-family: monospace;
+    width: 90%;
+    font-weight: bold;
+    border: 2px solid rgba(202, 202, 202, 0.521);
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(202, 202, 202, 0.521);
+    background-color: hsla(180, 100%, 50%, 0.767);
+}
+.input-submit:hover {
+    background-color: hsla(180, 100%, 40%, 0.767);
+    cursor: pointer;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+   
+    margin: 5px;
+  
+}
+.destroy-button {
+    top:0;
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    background-color: hsla(0, 0%, 100%, 0.795);
+    height: 9%;
+    width: 90%;
+    font-weight: bold;
+    
+   
+    border: none;
+    border-radius: 10px;
+    text-align:center;
+}
+.destroy-button:hover {
+    background-color: hsla(0, 100%, 50%, 0.767);
+    
+    cursor: pointer;
+    
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: hsla(0, 0%, 100%, 0.795);
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgba(202, 202, 202, 0.521);
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(202, 202, 202, 0.521);
+
+}
+.card-container:hover {
+    box-shadow: 0 0 15px rgba(30, 182, 0, 0.521);
+    flex-grow: 0.25;
+}
+.card-category {
+    box-shadow: 0 0 2px hsl(0, 1%, 74%);
+    border: 1px solid hsl(0, 1%, 74%);
+    border-radius: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.card-title {
+    box-shadow: 0 0 2px hsl(0, 1%, 74%);
+    border: 1px solid hsl(0, 1%, 74%);
+    border-radius: 10px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.card-text {
+    width: 90%;
+    font-size: 16px;
+    font-family: arial;
+    border-top: 2px solid hsl(0, 1%, 74%);
+    border-bottom: 2px solid hsl(0, 1%, 74%);
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    
+    
+}
+.card-link {
+    width: 90%;
+    text-decoration: none;
+    background-color: hsla(145, 100%, 50%, 0.767);
+    color: black;
+    border: 2px solid hsl(0, 1%, 74%);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+.card-link:hover {
+    background-color: hsla(145, 100%, 40%, 0.767)
+}

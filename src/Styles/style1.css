@@ -1,0 +1,148 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+html {
+    height: 100%;
+}
+#root{
+    height: 100%;
+}
+body {
+    padding: 0;
+    
+    transition: background-color 0.5s ease-in-out;
+    background-image: white;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+    
+}
+.game-win-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 25%;
+
+    
+    
+    
+}
+.outer-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    margin: 0;
+
+    
+}
+.stat-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    
+    text-align: center;
+}
+.game-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    border: 2px solid hsla(0, 0%, 27%, 0.719);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 3px hsla(0, 0%, 27%, 0.534);
+    background-color: white;
+}
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    border: 2px solid hsla(0, 0%, 27%, 0.719);
+    border-radius: 5px;
+    user-select: none;
+    transition: background-color 0.15s ease-in-out;
+}
+span[value="X"] {
+    background-color: hsla(59, 100%, 48%, 0.753);
+}
+span[value="O"] {
+    background-color: hsla(172, 95%, 45%, 0.699);
+}
+span:hover {
+    cursor: pointer;
+    background-color: hsla(0, 0%, 73%, 0.418);
+}
+span[value="X"]:hover{
+    cursor:not-allowed;
+    background-color: hsla(0, 79%, 57%, 0.904);
+}
+span[value="O"]:hover{
+    cursor:not-allowed;
+    background-color: hsla(0, 79%, 57%, 0.904);
+}
+
+
+
+.text {
+    backdrop-filter: blur(10px);
+    background-color: hsla(175, 100%, 50%, 0.418);
+    padding: 10px;
+    border-bottom: 2px solid hsla(0, 0%, 27%, 0.719);
+    transition: background-color 0.15s ease-in-out;
+    border-radius: 10px;
+    
+}
+.text[value="O"] {
+    background-color: hsla(172, 95%, 45%, 0.699);
+}
+.text[value="X"] {
+    background-color: hsla(59, 100%, 48%, 0.753);
+
+}
+.text-win {
+    
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 27%, 0.719);
+    border-radius: 10px;
+    background-color: white;
+}
+.text-stat {
+    backdrop-filter: blur(10px);
+    background-color: hsla(263, 100%, 50%, 0.418);
+    padding: 10px;
+    border-bottom: 2px solid hsla(0, 0%, 27%, 0.719);
+    transition: background-color 0.15s ease-in-out;
+    border-radius: 10px;
+}
+.reset-button {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 3px solid hsla(0, 0%, 27%, 0.719);
+    border-radius: 10px;
+    background-color: hsla(0, 79%, 57%, 0.904);
+    transition: background-color 0.15s ease-in-out;
+}
+.reset-button:hover {
+    background-color: hsla(0, 79%, 47%, 0.904);
+    cursor: pointer
+}
