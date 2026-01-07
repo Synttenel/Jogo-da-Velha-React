@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Receitas-React/static/css/main.7c838de0.css",
-    "main.js": "/Receitas-React/static/js/main.cac65cff.js",
-    "static/media/imagem.jpg": "/Receitas-React/static/media/imagem.270382af61594f8fd61e.jpg",
-    "index.html": "/Receitas-React/index.html",
-    "main.7c838de0.css.map": "/Receitas-React/static/css/main.7c838de0.css.map",
-    "main.cac65cff.js.map": "/Receitas-React/static/js/main.cac65cff.js.map"
+    "main.css": "/Jogo-da-Velha-React/static/css/main.d735f03b.css",
+    "main.js": "/Jogo-da-Velha-React/static/js/main.03eb11f9.js",
+    "static/media/minha.jpg": "/Jogo-da-Velha-React/static/media/minha.dd7b86a4508f79c5ad6f.jpg",
+    "index.html": "/Jogo-da-Velha-React/index.html",
+    "main.d735f03b.css.map": "/Jogo-da-Velha-React/static/css/main.d735f03b.css.map",
+    "main.03eb11f9.js.map": "/Jogo-da-Velha-React/static/js/main.03eb11f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c838de0.css",
-    "static/js/main.cac65cff.js"
+    "static/css/main.d735f03b.css",
+    "static/js/main.03eb11f9.js"
   ]
 }
